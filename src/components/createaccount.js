@@ -37,7 +37,7 @@ function CreateAccount(){
           setTimeout(() => setStatus(''), 3000);
           return false
      }
-      if(label==='password'){
+      if(label==='Password'){
         if(password.split('').length<8){
           setStatus('Password must be at least 8 characters.');
           setTimeout(() => setStatus(''), 3000);
